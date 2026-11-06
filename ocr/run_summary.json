@@ -1,0 +1,25 @@
+{
+  "images": 1998,
+  "observations": 210873,
+  "observations_with_character_boxes": 161754,
+  "zero_observation_ids": [],
+  "errors": 0,
+  "whole_image_elapsed_seconds": 1471.36,
+  "fallback_images": 13,
+  "fallback_observations_recovered": 5121,
+  "fallback_source_ids": [
+    "img_9a2ee94c4f57708a",
+    "img_565516ef000ee300",
+    "img_77eb6292efd5f701",
+    "img_14fe903c78613d6e",
+    "img_9e2066be53b2ba0f",
+    "img_7b6b3adcdc41dcc6",
+    "img_188628e96448730c",
+    "img_39f3123e1f892ebe",
+    "img_362d71a8cdd0025e",
+    "img_7e0bef3f5eef54da",
+    "img_fcecf7c8976e5bab",
+    "img_7f0bf4c740a7dbfd",
+    "img_8ef91e2c27b99ea6"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "input_images": 1998,
+  "unique_input_images": 1996,
+  "ocr_success": 1998,
+  "rows": 8788,
+  "numeric_rows": 8622,
+  "ocr_observations": 210873,
+  "ocr_empty_source_ids": [],
+  "source_directories": 482,
+  "extracted_source_directories": 165,
+  "extracted_county_labels": 130,
+  "fertilizer_groups": {
+    "K": 832,
+    "N": 4172,
+    "P": 2786,
+    "compound": 998
+  },
+  "review_status": {
+    "visually_checked": 390,
+    "ocr_candidate": 8398
+  },
+  "unknown_unit_rows": 4041,
+  "unknown_basis_rows": 7942,
+  "image_coverage_status": {
+    "manual_exclusion:视觉核对：上海县1950–1966仅化肥合计有值，目标肥料分项全部空白；排除把合计错配为氮肥的机器候选，另保留85个核验空白格": 1,
+    "annual_fertilizer_table_candidates": 244,
+    "annual_table_header_or_layout_unresolved": 379,
+    "no_short_fertilizer_labels": 1195,
+    "no_supported_annual_table_layout": 171,
+    "manual_exclusion:视觉核对：剑川县化肥农药农械农具择年销售价格，单位元": 1,
+    "manual_exclusion:视觉核对：剑川县价格续表及农副产品价格，不能跨表继承肥料表头": 1,
+    "manual_exclusion:视觉核对：呈贡县化肥销售价格表，元/吨不是销售数量": 1,
+    "manual_exclusion:视觉核对：大理州销售量占全省销售量比重表，百分比不是重量": 1,
+    "exact_duplicate_image:img_9f637b99e6054d21": 1,
+    "exact_duplicate_image:img_65d63d3b28afae48": 1,
+    "manual_exclusion:视觉核对：广元县氮肥厂经济指标，候选值为固定资产万元，非氮肥数量": 1,
+    "manual_exclusion:同时含年度磷肥吨总量及公斤/亩单元面积量；为避免混入每亩用量，排除该页机器候选，年度磷肥1950–1964已全部按原图另录15格reviewed_cells.csv。": 1
+  },
+  "year_min": 1908,
+  "year_max": 2018,
+  "treatment_data_supplied": false,
+  "causal_estimates_computed": false
+}

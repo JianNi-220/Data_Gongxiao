@@ -1,0 +1,354 @@
+{
+  "scope": "按记录列明的来源截图抽查；不代表全库逐格核验。",
+  "inspected_sources": [
+    {
+      "action": "retain_excluded",
+      "findings": [
+        "年度对齐表是生产资料销售额，单位万元，非化肥分品种数量。",
+        "下方表13–11含多年累计供应量及最高年份数量，不能拆成年度连续数据。最高年值可另作选择性报告，不进入普通年度面板。"
+      ],
+      "printed_pages": "373–374",
+      "source_id": "img_eeeee83d896f1ee7",
+      "source_path": "云南/云县/截屏2026-08-22 02.09.21.png",
+      "province": "云南",
+      "source_location": "云县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "sales",
+      "basis": "unknown",
+      "printed_page": "255",
+      "findings": [
+        "左侧购销总值为万元，右侧化学肥料销售分组单位为吨，需分组单位。",
+        "千位分隔空格造成丢首位：1980尿素为1056，1988尿素为1619。",
+        "硝铵列漏识别；碳铵1982、1984、1985、1988、1989漏取。",
+        "空格单元格是未填报，不应填零。"
+      ],
+      "source_id": "img_95c45b48fa9b1aa7",
+      "source_path": "云南/云龙县/云龙县 化肥供销1（表格）.png",
+      "province": "云南",
+      "source_location": "云龙县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "retain_excluded",
+      "findings": [
+        "商品价格变化表；化肥行520、640等是元/吨单价，不是销售数量。"
+      ],
+      "printed_page": "316",
+      "source_id": "img_f85e07871a1c5f8a",
+      "source_path": "云南/云龙县/云龙县 化肥供销2（表格）.png",
+      "province": "云南",
+      "source_location": "云龙县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "use",
+      "basis": "unknown",
+      "printed_page": "123",
+      "findings": [
+        "明确全县农作物肥料施用统计表。",
+        "大量千位空格使数量截成片段：1971氮肥1628、磷肥1827；1982氮肥3075；1988复合肥1601。",
+        "1956等年磷肥/钾肥/复合肥以横线表示，保留来源横线为缺失，不默认为零。",
+        "1962合计27.274与氮肥27.247不一致，忠实记录原表氮肥值，不擅自按合计修改。"
+      ],
+      "source_id": "img_779d18a8912ae45b",
+      "source_path": "云南/临沧县/截屏2026-08-23 15.05.36.png",
+      "province": "云南",
+      "source_location": "临沧县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "sales",
+      "basis": "unknown",
+      "printed_page": "555",
+      "findings": [
+        "两侧年份列属于同一个1958–1995销售表，右侧继承相同销售口径和吨单位。",
+        "1958磷肥1.6漏取，1977氮肥158漏取。",
+        "磷肥1960–1963为空白；不置零。"
+      ],
+      "source_id": "img_be3e756ec9b1a5a5",
+      "source_path": "云南/兰坪白族普米族自治县/截屏2026-08-24 00.10.58.png",
+      "province": "云南",
+      "source_location": "兰坪白族普米族自治县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "use",
+      "basis": "unknown",
+      "printed_page": "289",
+      "findings": [
+        "单位亩、吨中，绿肥种植面积为亩，化肥施用分项为吨。",
+        "1971磷肥1647、1972磷肥1291、1974氮肥2001和磷肥2164、1976氮肥1220和磷肥1573、1981氮肥4801和磷肥3753被千位拆分。",
+        "1982钾肥9漏取。1966–1970化肥栏为空白，不填零。"
+      ],
+      "source_id": "img_1d7b4d70744199de",
+      "source_path": "云南/丽江纳西族自治县/截屏2026-08-20 16.00.47.png",
+      "province": "云南",
+      "source_location": "丽江纳西族自治县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "use",
+      "basis": "unknown",
+      "printed_page": "290",
+      "metadata_source_id": "img_1d7b4d70744199de",
+      "findings": [
+        "续表，沿用前图单位亩、吨及施用口径。",
+        "N/P千位空格多数造成漏取或仅取首位；钾肥列全部漏取。",
+        "1983–1990四类化肥数据可清晰逐格读取，见独立核验记录。"
+      ],
+      "source_id": "img_e77186d2572e65c0",
+      "source_path": "云南/丽江纳西族自治县/截屏2026-08-20 16.01.24.png",
+      "province": "云南",
+      "source_location": "丽江纳西族自治县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "use",
+      "basis": "unknown",
+      "printed_page": "326",
+      "findings": [
+        "表名1980–1988年全县化肥农药用量表，单位吨。",
+        "1983尿素1840和普钙2308被拼成18402308；1987尿素2181和普钙5268被拼成21815268。",
+        "碳铵和硝铵列全部漏取；1985尿素1928和普钙2438漏取。",
+        "不应把相邻废水氨浓度/总磷浓度等表中的数据认作肥料数量。"
+      ],
+      "source_id": "img_8eb38cfe833517e5",
+      "source_path": "云南/华宁县/华宁县 化肥使用（表格）.png",
+      "province": "云南",
+      "source_location": "华宁县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "exclude_nonquantity",
+      "findings": [
+        "大理州供销系统化肥销售量占全省销售量比重表，全部品种列单位为百分比，非重量。",
+        "大理州为高于县的汇总地理单元，不能直接当作县。"
+      ],
+      "printed_page": "325",
+      "source_id": "img_4af5354ff83932ec",
+      "source_path": "云南/大理州/Screenshot 2026-08-12 at 16.15.25.png",
+      "province": "云南",
+      "source_location": "大理州",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "exclude_nonquantity",
+      "findings": [
+        "择年化肥销售价格表，单位元/吨。当前候选350、340、660等是价格。",
+        "相邻指数行也是价格指数，不是数量。"
+      ],
+      "printed_page": "267",
+      "source_id": "img_c7298ef6a651169f",
+      "source_path": "云南/呈贡县/截屏2026-08-22 17.19.13.png",
+      "province": "云南",
+      "source_location": "呈贡县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "exclude_nonquantity",
+      "findings": [
+        "上表为前页化肥、农药、农械、农具择年销售价格续表，前页明确单位元；吨只是计价商品规格。",
+        "下表是农副产品销售价格。跨表沿用肥料标题导致严重错配：1954复合肥2实际为洋芋零售价；1956尿素23.56实际为生猪收购价。"
+      ],
+      "printed_page": "153",
+      "metadata_source_id": "img_4faaa1c43827a017",
+      "source_id": "img_edfad3dceb005ea8",
+      "source_path": "云南/剑川县/截屏2026-08-20 21.30.21.png",
+      "province": "云南",
+      "source_location": "剑川县",
+      "review_method": "native_image_visual_inspection"
+    },
+    {
+      "action": "correct_and_complete_true_table",
+      "unit": "吨",
+      "measure": "supply",
+      "basis": "unknown",
+      "printed_page": "310",
+      "findings": [
+        "东川市农用物资择年供销统计表中化学肥料分组单位为吨。",
+        "氮肥列全部漏取。1970磷肥375被误取3751；1990磷肥3631仅取3。",
+        "source_location为东川市，县级可比性需单独核实，不能仅按市后缀判为县级市。"
+      ],
+      "source_id": "img_acdb52079860af44",
+      "source_path": "云南/东川市/截屏2026-08-23 14.10.16.png",
+      "province": "云南",
+      "source_location": "东川市",
+      "review_method": "native_image_visual_inspection"
+    }
+  ],
+  "supporting_inspections": [
+    {
+      "source_id": "img_4faaa1c43827a017",
+      "source_path": "云南/剑川县/截屏2026-08-20 21.30.08.png",
+      "purpose": "确认剑川县续表价格口径",
+      "confirmed_title": "化肥、农药、农械、农具择年销售价格",
+      "confirmed_unit": "元",
+      "printed_page": "152"
+    }
+  ],
+  "systemic_findings": [
+    "价格和比重表必须先按表级标题及分组单位剔除；仅匹配品名和年份不足以确认数量。",
+    "千位空格丢首位及相邻数字粘连在多表重复；候选记录必须保持未核验状态。",
+    "单位和业务口径应就近按表/分组继承，不能用整页混杂单位推断。",
+    "需限制表边界，防止同页下表继承上表肥料标题。",
+    "未填单元格和横线缺失不等于零。"
+  ],
+  "later_province_review": {
+    "scope": "8个后续省份候选截图，四川4、江苏4；河南河北尚未在本次可见OCR候选中出现。仅核对表格语义、单位及明显错误，不代表整表全部单元格核验。",
+    "findings": [
+      {
+        "source_id": "img_e61700430fbe78d2",
+        "action": "manual_metadata_and_product_review",
+        "unit": "吨",
+        "measure": "use",
+        "printed_page": "160",
+        "findings": [
+          "表名1973至1985年南充县化肥用量统计表，单位吨；周围正文公斤及销售字样不能覆盖表头。",
+          "当前多列unit=公斤、measure=sales均错，应按此表吨/use记录。",
+          "当前1978硫酸铵2705、1979硫酸铵1392、1980硫酸铵709、1985硫酸铵282实际均属于氨水列；1981/1982/1983/1984硫酸铵246/36/246/73确为硫酸铵，不能整列简单改标签。",
+          "碳铵、尿素、氯化铵、氨水及钾肥列多数漏取，说明不能据候选有值推断表格已经抽取完整。"
+        ],
+        "source_path": "四川/南充县/南充县 化肥使用（表格）.png",
+        "province": "四川",
+        "source_location": "南充县",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_9367cc54b3bef21c",
+        "action": "exclude_nonquantity",
+        "printed_page": "441",
+        "findings": [
+          "表名广元县氮肥厂历年经济指标，含年末职工人、固定资产原值万元、总产值万元、利润万元。",
+          "当前N336.70、344.70、328.30、433.90、452.85、452.74全为固定资产原值万元，不是肥料产量/销售量。"
+        ],
+        "source_path": "四川/广元县/广元县 化肥生产指标（表格）.png",
+        "province": "四川",
+        "source_location": "广元县",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_27a58c5ea17b2777",
+        "action": "quantity_table_confirmed_partial_only",
+        "unit": "吨",
+        "measure": "sales",
+        "printed_page": "902",
+        "findings": [
+          "江油县供销合作社部分年度销售化肥统计表是真实数量表；当前复合肥1967=11、1978=16、1979=85、1980=41、1981=129、1982=106、1983=52、1984=452逐项与原图一致。",
+          "同表还有氮肥总量及多个氮肥产品、磷肥、钾肥等，当前候选尚未提取多数列；保留原始空白，不填零。"
+        ],
+        "source_path": "四川/江油县/江油县-化肥购销2（表格）.png",
+        "province": "四川",
+        "source_location": "江油县",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_d525f0d3a1a4d865",
+        "action": "manual_metadata_review",
+        "unit": "吨",
+        "measure": "use",
+        "printed_page": "138–139",
+        "findings": [
+          "1970年至1992年化学肥料施用数量表，单位吨，左下起始表与右侧续表同口径。",
+          "当前1972尿素1519 unit=公斤错误，应为吨；其余续表unknownunit也可按该表继承吨。",
+          "右侧续表多个碳铵、硝铵、硫铵列漏取；未见巨型粘连值，已抽取尿素/磷肥等示例数值与原图相符。"
+        ],
+        "source_path": "四川/洪雅县/洪雅县 化肥使用2（表格）.png",
+        "province": "四川",
+        "source_location": "洪雅县",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_c6a010e6e9700fde",
+        "action": "exclude_per_area_and_false_missing_candidates",
+        "printed_page": "139",
+        "findings": [
+          "表名1950–1989年丹阳市化学肥料及磷肥使用情况统计表，化肥合计列单位吨且折合量；磷肥另有吨总量；右侧是每亩使用量公斤。",
+          "1962磷肥445.20吨、1963磷肥252.60吨、1964磷肥1524.10吨为年度总量，可以保留。",
+          "1962磷肥0.47、1963磷肥0.13、1964磷肥1.57为公斤/亩，不能按普通公斤转为年度吨数。",
+          "1950和1952磷肥总量及每亩值均为横线，当前quantity=1错误。",
+          "丹阳市为原文地名，历史县级可比性按年代另核实；不能仅按市后缀排除或认定县级。"
+        ],
+        "source_path": "江苏/丹阳市/Screenshot 2026-08-28 at 23.34.52.png",
+        "province": "江苏",
+        "source_location": "丹阳市",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_fb51ea93a43a86e4",
+        "action": "quantity_table_confirmed_partial_only",
+        "unit": "担",
+        "measure": "sales",
+        "printed_page": "196",
+        "findings": [
+          "武进县商业、供销系统历年主要生产资料销售实绩表，化学肥料及其中磷肥单位担，非元/担。",
+          "当前磷肥1964=4940、1965=38200、1966=63940、1967=21800、1968=16380、1969=4940、1970=70920、1971=97300与原图一致。逗号为千位符。",
+          "其余磷肥年份1972–1983可见但多数尚未抽取；化学肥料总量不是氮肥总量，不能直接归N。"
+        ],
+        "source_path": "江苏/武进县/Screenshot 2026-08-29 at 16.40.46.png",
+        "province": "江苏",
+        "source_location": "武进县",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_fc1ccad891cb4b8b",
+        "action": "geography_review_required",
+        "unit": "吨",
+        "measure": "supply",
+        "printed_page": "36–37",
+        "findings": [
+          "农业生产资料供应实绩(一)与续表，N/P/K/复合肥单位吨，未见价格或比重误入。",
+          "1978N233439、1980N479976、1982N719306、1986N853329等大数字确在原图，不应仅因数量大自动认定粘连。",
+          "正文反复使用淮阴地区、全区，并含宿迁县等多县供销业务；本页很可能是地区汇总，source_location淮安市不等于可直接当县。进入县面板前必须核实统计地域范围。"
+        ],
+        "source_path": "江苏/淮安市/Screenshot 2026-08-29 at 16.38.47.png",
+        "province": "江苏",
+        "source_location": "淮安市",
+        "review_method": "native_image_visual_inspection"
+      },
+      {
+        "source_id": "img_14ee943a7c0709b9",
+        "action": "quantity_table_confirmed_partial_only",
+        "unit": "吨",
+        "measure": "sales",
+        "printed_page": "117",
+        "findings": [
+          "同页上表主要农用物资零售价格元/吨，应排除；下表农资公司各类化肥销售一览表单位吨，应保留。不可按整页出现价格字样就排除整个截图。",
+          "当前下表尿素/磷肥/碳铵/硝铵/复合肥示例与原图一致；多数unitunknown可以按下表吨继承。",
+          "氯化铵与磷酸二铵列多数漏取。磷酸二铵为含N/P产品，保留原品名并按项目规则归类，不等于单独磷肥合计。"
+        ],
+        "source_path": "江苏/灌云县/Screenshot 2026-08-29 at 16.46.11.png",
+        "province": "江苏",
+        "source_location": "灌云县",
+        "review_method": "native_image_visual_inspection"
+      }
+    ],
+    "new_nonquantity_exclusions": [
+      "img_9367cc54b3bef21c"
+    ],
+    "manual_page_exclusions_recommended": [
+      {
+        "source_id": "img_c6a010e6e9700fde",
+        "reason": "同时含年度磷肥吨总量及公斤/亩单元面积量；为避免混入每亩用量，排除该页机器候选，年度磷肥1950–1964已全部按原图另录15格qa_reviewed_cells.json。"
+      }
+    ],
+    "correction_files": {
+      "source_metadata_overrides": "data/source_metadata_overrides.csv",
+      "wrong_product_candidate_exclusions": "data/cell_exclusions.csv",
+      "verified_cells": "data/reviewed_cells.csv"
+    }
+  }
+}
